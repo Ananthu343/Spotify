@@ -1,13 +1,14 @@
-body{
+body {
     margin: 0px;
 }
 
-.header{
+.header {
     width: 100%;
     height: 80px;
     background-color: black;
 }
-.header-logo img{
+
+.header-logo img {
     float: left;
     height: 40px;
     width: 132px;
@@ -15,14 +16,16 @@ body{
     margin-left: 190px;
 
 }
-.header-link-container{
+
+.header-link-container {
     background-color: black;
     float: right;
     margin-right: 180px;
     height: 80px;
     width: 500px;
 }
-.premium{
+
+.premium {
     float: left;
     height: 50px;
     width: 20%;
@@ -30,82 +33,95 @@ body{
     padding-left: 3px;
 
 }
-.link-font{
+
+.link-font {
     cursor: pointer;
-    color: white;  
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 15px;
 }
-.link-font:hover{
-    color:rgb(19, 181, 19);
+
+.link-font:hover {
+    color: rgb(19, 181, 19);
 }
-a{
+
+a {
     text-decoration: none;
-   
+
 }
-.slash-font{
-    color: white;  
+
+.slash-font {
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-.slashpos{
+
+.slashpos {
     float: left;
     height: 50px;
     width: 1%;
     padding-top: 29px;
     padding-left: 3px;
 }
-.profilepos{
+
+.profilepos {
     float: left;
     height: 60px;
     width: 30%;
     padding-top: 30px;
     padding-left: 30px;
 }
-.profile-img{
+
+.profile-img {
     cursor: pointer;
     float: left;
-   width: 35px;
-   border-radius: 16px;
-   margin-top: -10px;
-   margin-right: 20px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-right: 20px;
 
 }
-.first-body{
+
+.first-body {
     position: absolute;
     width: 100%;
     height: 600px;
     background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
     overflow: hidden;
 }
-.firstbodycontainer{
+
+.firstbodycontainer {
     display: flex;
     margin-left: 165px;
     position: relative;
     width: 1170px;
     height: 600px;
     /* background-color: blue; */
-    
+
 }
-.phonecontainer{
+
+.phonecontainer {
     width: 462px;
     height: 600px;
     /* background-color: black; */
 }
-.frame{
+
+.frame {
     margin-top: 100px;
     margin-left: 100px;
     width: 281px;
     height: 572px;
-}  
-.textcontainer{
+}
+
+.textcontainer {
     width: 690px;
     height: 600px;
     /* background-color: brown; */
     padding-left: 10px;
 }
-.text1{
+
+.text1 {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
@@ -114,7 +130,8 @@ a{
     margin-top: 180px;
     color: white;
 }
-.zoom{
+
+.zoom {
     cursor: pointer;
     margin-top: -300px;
     height: 48px;
@@ -124,55 +141,65 @@ a{
     border-color: white;
     /* transition: transform .1s; */
 }
-.zoom:hover{
+
+.zoom:hover {
     transform: scale(1.05);
 }
-.secondbody{
+
+.secondbody {
     width: 100%;
     height: 595.3px;
     margin-top: 600px;
     /* background-color: blue; */
 }
-.secondbodycontainer{
+
+.secondbodycontainer {
     overflow: hidden;
     width: 1170px;
-    height:595.3px ;
+    height: 595.3px;
     margin-left: 175px;
     /* background-color:red; */
 }
-.subtext{
+
+.subtext {
     margin-top: 10px;
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
     float: left;
     width: 285px;
     height: 100px;
     background-color: white;
 }
-.subtextcontainer{
+
+.subtextcontainer {
     width: 1170px;
     height: 250px;
     padding-left: 20px;
     /* background-color: antiquewhite; */
 }
-.subtexthed{
+
+.subtexthed {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 21px;
     text-align: center;
 }
-.subtextdes{
-    font-family: Arial, Helvetica, sans-serif; font-size: 16px;
+
+.subtextdes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     text-align: center;
     margin-top: -6px;
     font-weight: 500;
 }
-.thirdbody{
+
+.thirdbody {
     width: 100%;
     height: 495px;
     background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
-}    
-.thirdbodytext{
+}
+
+.thirdbodytext {
     text-align: center;
     font-size: 48px;
     padding-top: 190px;
@@ -180,13 +207,15 @@ a{
     font-weight: 700;
     color: white;
 }
-.fourthbody{
+
+.fourthbody {
     margin-top: -50px;
     width: 100%;
     height: 584px;
     background-color: white;
-}    
-.fourthbodytext{
+}
+
+.fourthbodytext {
     text-align: center;
     font-size: 38px;
     padding-top: 80px;
@@ -194,66 +223,78 @@ a{
     font-weight: 700;
     color: black;
 }
-.detailcontainer{
+
+.detailcontainer {
     width: 1175px;
     height: auto;
     margin-top: -390px;
     margin-left: 200px;
     /* background-color: brown; */
 }
-details.styled summary{
+
+details.styled summary {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
-details.styled{
+
+details.styled {
     /* width: 1140px;
     height: 77.13px; */
     /* border: 1px solid; */
     cursor: pointer;
 }
-details[open].styled summary{
+
+details[open].styled summary {
     padding-bottom: 1em;
 }
-details.styled summary:hover{
+
+details.styled summary:hover {
     background-color: lightgrey;
     text-decoration: underline;
 }
-summary{
+
+summary {
     margin-top: px;
     height: 80px;
     list-style: none;
 }
-summary::before{
+
+summary::before {
     content: 'v';
-    
+
     float: right;
     margin-right: 30px;
     margin-top: 30px;
     /* transition: transform 0.5s; */
 }
-details[open].styled summary::before{
+
+details[open].styled summary::before {
     transform: rotate(180deg);
 }
-abc{
+
+abc {
     color: green;
 }
-.fifthbody{
+
+.fifthbody {
     width: 100%;
     height: 450px;
     display: flex;
     justify-content: center;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
 }
-.fifthtext{
+
+.fifthtext {
     text-align: center;
     font-size: 80px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.b2zoom{
+
+.b2zoom {
     cursor: pointer;
     height: 48px;
     width: 188px;
@@ -261,79 +302,91 @@ abc{
     border-radius: 25px;
     border-color: white;
 }
-.b2zoom:hover{
+
+.b2zoom:hover {
     transform: scale(1.05);
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 554px;
     background-color: black;
 }
-.box{
+
+.box {
     margin-top: 100px;
     text-align: left;
     width: 195px;
     height: 346px;
     /* background-color: antiquewhite; */
 }
-.footertextlink1{
+
+.footertextlink1 {
     margin-top: 25px;
     cursor: pointer;
-    color: white;  
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 15px;
 }
-.footertextlink1:hover{
-    color:rgb(19, 181, 19);
+
+.footertextlink1:hover {
+    color: rgb(19, 181, 19);
 }
-.socialmedialogo{
+
+.socialmedialogo {
     margin-left: 15px;
     margin-top: 13px;
     width: 25px;
     background-color: white;
 }
-.socialmedialogo:hover{
+
+.socialmedialogo:hover {
     background-color: rgb(19, 181, 19);
 }
-.iconback{
-    
+
+.iconback {
+
     cursor: pointer;
     margin-top: 10px;
     width: 54px;
     height: 54px;
-    background-color:#222326;  
+    background-color: #222326;
     border-radius: 50%;
 }
-.footerfoot2{
+
+.footerfoot2 {
     margin-left: 185px;
-    margin-top:  -90px;
+    margin-top: -90px;
     display: flex;
     width: 1170px;
     height: 39.2px;
     /* background-color: white; */
 }
-.footertextlink2{
+
+.footertextlink2 {
     margin-right: 20px;
     cursor: pointer;
-    color:#919496;  
+    color: #919496;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 12px;
 }
-.footertextlink2:hover{
-    color:rgb(19, 181, 19);
+
+.footertextlink2:hover {
+    color: rgb(19, 181, 19);
 }
-.footerfoot1{
+
+.footerfoot1 {
     display: flex;
     margin-left: 185px;
     /* background-color: aliceblue; */
     justify-content: right;
     margin-top: -80px;
     font-size: 16px;
-    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
     font-weight: 400;
     width: 1170px;
     height: 39.2px;
